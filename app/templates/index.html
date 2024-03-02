@@ -1,0 +1,12 @@
+{%extends "base.html" %}
+{%block content%}
+        <h2>Welcome to Image to Caption Generator!</h2>
+            <h2>Upload Image</h2>
+    <form action="/predict/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+
+
+    </form>
+{%endblock%}

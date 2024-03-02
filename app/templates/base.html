@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>ImageCaptionGenerator</title>
+</head>
+
+<body>
+    <header>
+        <h1>ImageCaptionGenerator</h1>
+    </header>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section>
+        {% block content %}
+        Will be replaced
+        {%endblock%}
+    </section>
+
+    <footer>
+        &copy; 2024 Made By Subh. All rights reserved.
+    </footer>
+</body>
+
+</html>
