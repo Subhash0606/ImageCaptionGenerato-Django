@@ -8,9 +8,7 @@ Image to Caption is a Django web app that leverages the OpenAI Language Model (L
 **Getting Started**
 To use this app, follow these steps:
 
-Clone the repository:
-
-
+Clone the repository:  
 git clone https://github.com/example/repository.git
 
 Install the required dependencies:
