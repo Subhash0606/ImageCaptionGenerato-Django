@@ -1,5 +1,5 @@
 Image to Caption
-![Vision Encoder Decoder]('/static/vision-encoder-decoder.png')
+![Vision Encoder Decoder](/static/vision-encoder-decoder.png)
 
 
 Overview
