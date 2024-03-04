@@ -1,7 +1,6 @@
-Image to Caption
+**Image to Caption**
 This project is a Django web app that allows users to generate captions to their wide variety of images using the OpenAI Language Model (LLM) and Vision transformers.
-
-
+![Uploading vision-encoder-decoder.png…]()
 
 To use this app, follow these steps:
 
@@ -15,8 +14,7 @@ Set up your your environment in Python>=3.7
 virtualenv -p path_to_installedPY3.7.exe Py37env
 
 Run the Django website:
-python manage.py runserver
-
+python [manage.py](http://manage.py/) runserver
 
 Limitations
 The caption generation relies on the OpenAI Language Model and ViT model and its capabilities.
@@ -27,4 +25,4 @@ License
 This project is licensed under the MIT License.
 
 Acknowledgements
-This project was inspired by the power of OpenAI's Language Models, Hugging Face API and the need for a more interactive and user-friendly cweb page. Special thanks to the contributors and maintainers of the libraries and frameworks used in this project.
+This project was inspired by the power of OpenAI's Language Models, Hugging Face API and the need for a more interactive and user-friendly cweb page. Special thanks to the contributors and maintainers of the libraries and frameworks
